@@ -14,7 +14,6 @@ export default class extends Controller {
 
     if (modalClicked) {
       leave(document.getElementById('modal-wrapper'));
-      leave(document.getElementById('modal-main'));
     }
   }
 }
